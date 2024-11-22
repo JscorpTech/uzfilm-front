@@ -1,0 +1,28 @@
+%pr-btn {
+  border: none;
+  padding: 13px 48px;
+  background: $white;
+  @include font(500, 20px, 23px);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color: #041B20;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 1;
+  }
+  border-radius: 15px;
+  @include media(980px) {
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 12px 24px;
+  }
+  @include media(600px) {
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 10px 20px;
+  }
+
+}

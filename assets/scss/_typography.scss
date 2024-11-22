@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Circular Spotify Text Book';
+    src: url('@/assets/fonts/CircularSpotifyText-Book.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-BlackItalic.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-Black.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-Bold.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-Medium.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-Light.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text Book';
+    src: url('@/assets/fonts/CircularSpotifyText-BookItalic.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Spotify Text';
+    src: url('@/assets/fonts/CircularSpotifyText-MediumItalic.woff2') format('woff2'),
+        url('@/assets/fonts/CircularSpotifyText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');

@@ -1,0 +1,24 @@
+@mixin font($fw, $fz, $lh) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+}
+@mixin media($w) {
+  @media (max-width: $w) {
+    @content;
+  }
+}
+@mixin title {
+  @include font(700, 40px, 1.2);
+  letter-spacing: -0.4px;
+  color: #dfdfdf;
+  @include media(1380px) {
+    font-size: 30px;
+  }
+  @include media(800px) {
+    font-size: 26px;
+  }
+  @include media(650px) {
+    font-size: 22px;
+  }
+}

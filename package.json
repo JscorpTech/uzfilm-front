@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.16.0",
+    "@nuxtjs/seo": "^2.0.0-rc.10",
+    "@nuxtjs/sitemap": "^5.1.5",
+    "@pinia/nuxt": "^0.5.1",
+    "@types/video.js": "^7.3.58",
+    "@videojs-player/vue": "^1.0.0",
+    "imask": "^7.6.0",
+    "nuxt": "^3.11.2",
+    "nuxt-simple-robots": "^4.0.0-rc.17",
+    "nuxt-swiper": "^1.2.2",
+    "sass": "^1.77.0",
+    "sass-loader": "^14.2.1",
+    "ua-parser-js": "^1.0.37",
+    "video.js": "7.14.3",
+    "videojs-contrib-quality-levels": "3.0.0",
+    "videojs-hls-quality-selector": "1.1.4",
+    "videojs-hotkeys": "0.2.28",
+    "videojs-seek-buttons": "3.0.1",
+    "vue": "^3.4.21",
+    "vue-awesome-paginate": "^1.1.46",
+    "vue-gtag-next": "^1.14.0",
+    "vue-router": "^4.3.0",
+    "vue-toastification": "2.0.0-rc.5",
+    "vue3-google-login": "2.0.26",
+    "vue3-otp-input": "0.4.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
